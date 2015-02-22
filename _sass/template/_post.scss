@@ -1,0 +1,15 @@
+.post-content{
+
+  p{
+    font-family: $font-family-serif;
+  }
+
+  p,ul,ol,h1,h2,h3,h4,h5,h6,blockquote, pre, code{
+    @extend .container;
+  }
+
+  img{
+    max-width: 100%;
+  }
+
+}

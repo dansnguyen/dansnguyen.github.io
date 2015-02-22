@@ -1,0 +1,13 @@
+---
+layout: post
+---
+
+
+<section class="video-embed">
+{% if page.youtube_id %}
+  {% include widgets/youtube_embed.html video_id=page.youtube_id %}
+{% endif %}
+</section>
+
+
+{{ content }}
