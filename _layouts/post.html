@@ -3,6 +3,14 @@ layout: default
 ---
 <div class="post">
 
+    {% if page.banner_image_url %}
+      <div class="banner_image">
+        <div class="imgwrap">
+          <img src="{{page.banner_image_url}}" alt="{{page.banner_image_url}}">
+        </div>
+      </div>
+    {% endif %}
+
     <div class="container">
       <header class="post-header">
         <h1 class="post-title">{{ page.title }}</h1>
