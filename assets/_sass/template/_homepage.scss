@@ -1,16 +1,70 @@
 
 
-.item{
-  width: 330px;
-  padding: 15px;
-  margin-bottom: 10px;
-  border: thin solid #aaa;
-  margin-left: 10px;
-  min-height: 250px;
 
-  .title{
-    position: absolute;
-    bottom: 10px;
-    background: black;
+.homepage{
+  .banner{
+    h1.title{
+      text-align:center;
+      font-size: 200px;
+    }
+    height: 400px;
   }
+}
+
+
+.posts_array{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.imgwrap{
+  img{
+    width: 100%;
+  }
+}
+
+$box_width: 20%;
+
+.item{
+  .title{
+    // position: absolute;
+    // bottom: 10px;
+    background: black;
+    padding: 10px;
+
+  }
+}
+
+.box-sizer{
+  width: $box_width;
+}
+
+@media screen and (min-width: 1200px) {
+  .box-sizer { width: 20%; }
+}
+
+.item.box{
+  width: $box_width;
+  min-height: 200px;
+  // height: $box_height;
+  // background:url(http://www.placecage.com/g/400/300);
+}
+
+
+
+.item.box-1x2{
+  // height: $box_height * 2 + $box_gutter * 1;
+  // background:url(http://www.placecage.com/g/600/300);
+}
+
+.item.box-2x2{
+  width: $box_width * 2;
+  // height: $box_height * 2 + $box_gutter * 1;
+  // background:url(http://www.placecage.com/g/600/600);
+}
+
+.item.box-3x3{
+  width: $box_width * 3;
+  // height: $box_height * 3 + $box_gutter * 2;
+  // background:url(http://www.placecage.com/g/900/900);
 }

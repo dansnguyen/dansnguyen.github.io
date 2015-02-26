@@ -1,14 +1,20 @@
 ---
 layout: default
+hide_header: true
 ---
 
-<div class="home">
-  <div class="container">
-
-     {% include widgets/post_array.html %}
+<div class="homepage">
 
 
+    <div class="banner-wrapper">
+      {% include homepage/banner.html %}
+    </div>
 
-  </div>
+
+    <div class="posts_array">
+         {% include widgets/post_array.html %}
+    </div>
 
 </div>
+
+

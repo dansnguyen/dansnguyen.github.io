@@ -1,16 +1,48 @@
 {% assign posts = site.posts %}
 
-<div class="isotope-container">
+<div class="packery-container">
+  <div class="box-sizer"></div>
         {% for post in site.posts %}
-          <div class="item" style="background:url(http://www.placecage.com/g/400/300);">
-            <h5 class="title">
+          {% assign box = '1x1' %}
+          {% assign title = post.title %}
+
+
+          {% if post.homepage %}
+            {% if post.homepage.box %}
+              {% assign box = post.homepage.box %}
+            {% endif %}
+          {% endif %}
+
+
+          <div class="item box box-{{box}}" style="">
+            {% if post.thumbnail_url %}
+              <div class="imgwrap thumb">
+                <img src="{{post.thumbnail_url}}" alt="thumbnail">
+              </div>
+            {% endif %}
+
+            <h3 class="title">
               <a href="{{ post.url | prepend: site.baseurl }}">
                 {{ post.title }}
               </a>
-            </h5>
+            </h3>
+            <p>{{post.excerpt}}</p>
           </div>
 
         {% endfor %}
 
 </div>
+
+
+
+<script>
+  $(document).ready(function(){
+    $(".packery-container").packery({
+        itemSelector: '.item',
+        columnWidth: 300,
+        rowHeight: 200,
+        gutter: 10
+    });
+  })
+</script>
 

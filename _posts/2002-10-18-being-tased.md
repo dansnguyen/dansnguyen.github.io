@@ -8,7 +8,10 @@ published_info:
   site: The Iowa State Daily
   url: http://www.iowastatedaily.com/opinion/article_c6b50d83-a68e-5fc0-82e0-856756f45aec.html
   logo_url: http://www.theweather.com/image.jpg
-
+homepage:
+  title: Some other thing iowastate
+  position: 1
+  box: 1x2
 ---
 
 
