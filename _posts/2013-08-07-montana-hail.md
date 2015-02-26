@@ -26,4 +26,6 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed suscipit temporibu
 
 #### More text about the video
 
+I also [took some photos](https://www.flickr.com/photos/zokuga/sets/72157635086612217).
+
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur reprehenderit laborum veniam illum molestiae, ut accusantium, est neque quia, porro dolorem fuga ducimus praesentium labore, ad in mollitia rem. Nobis!

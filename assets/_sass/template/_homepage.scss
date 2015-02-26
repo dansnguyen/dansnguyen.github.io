@@ -1,0 +1,16 @@
+
+
+.item{
+  width: 330px;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: thin solid #aaa;
+  margin-left: 10px;
+  min-height: 250px;
+
+  .title{
+    position: absolute;
+    bottom: 10px;
+    background: black;
+  }
+}

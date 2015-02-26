@@ -12,7 +12,8 @@ url: "http://dansnguyen.github.io" # the base hostname & protocol for your site
 google_analytics_id: UA-somecode
 permalink: /posts/:title
 
-
+sass:
+    sass_dir: assets/_sass
 
 ### These things will show up in your footer
 twitter_id: dancow
