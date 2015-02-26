@@ -2,7 +2,6 @@
 # Site settings
 
 title: Dan Nguyen's site
-email: dun@stanford.edu
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -10,16 +9,19 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://dansnguyen.github.io" # the base hostname & protocol for your site
 
-
-
-
-
-### other stuff
-twitter_username: dancow
-github_username:  dannguyen
-instagram_username: danwinny
-resume_url: http://a.danwin.com
 google_analytics_id: UA-somecode
+permalink: /posts/:title
+
+
+
+### These things will show up in your footer
+twitter_id: dancow
+github_id:  dannguyen
+flickr_id: zokuga
+tumblr_id: eyeheartnewyork
+instagram_id: danwinny
+resume_url: http://a.danwin.com
+email: dun@stanford.edu
 
 #######################################
 

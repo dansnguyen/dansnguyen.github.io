@@ -1,0 +1,32 @@
+{% if include.width %}
+  {% assign width = include.width %}
+{% else %}
+  {% assign width = "50%" %}
+{% endif %}
+
+{% if include.side %}
+  {% assign side = include.side %}
+{% else %}
+  {% assign side = "right" %}
+{% endif %}
+
+
+{% if include.alt %}
+  {% assign alt = include.alt %}
+{% else %}
+  {% assign alt = include.src %}
+{% endif %}
+
+
+<div class="imgwrap pull {{ side }}">
+  <div>
+    <img alt="{{ alt }}" src="{{ include.src }}">
+
+    {% if include.caption %}
+      <div class="caption">
+        {{ include.caption }}
+      </div>
+    {% endif %}
+  </div>
+</div>
+
