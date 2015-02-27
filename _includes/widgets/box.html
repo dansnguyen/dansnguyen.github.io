@@ -1,0 +1,33 @@
+{% assign _post = include.post %}
+
+{% assign boxsize = 1 %}
+{% assign title = post.title %}
+{% assign description = post.description %}
+
+{% if _post.homepage_size %}
+  {% assign boxsize = _post.homepage_size %}
+{% endif %}
+
+{% if _post.homepage_title %}
+  {% assign title = _post.homepage_title %}
+{% endif %}
+
+{% if _post.homepage_description %}
+  {% assign description = _post.homepage_description %}
+{% endif %}
+
+
+<div class="item box box-{{boxsize}}" style="">
+  <a href="{{ _post.url | prepend: site.baseurl }}" class="title-link">
+    {% if _post.thumbnail_url %}
+      <div class="imgwrap thumb">
+        <img src="{{_post.thumbnail_url}}" alt="thumbnail">
+      </div>
+    {% endif %}
+
+    <h3 class="title">
+        {{ title }}
+    </h3>
+  </a>
+  <p class="description">{{ description }}</p>
+</div>

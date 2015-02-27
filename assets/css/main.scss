@@ -5,7 +5,6 @@
 
 
 
-// Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "custom_vars/grid",
         "custom_vars/typography",
@@ -18,3 +17,9 @@
         "template/homepage"
 
 ;
+
+.imgwrap{
+  img{
+    width: 100%;
+  }
+}

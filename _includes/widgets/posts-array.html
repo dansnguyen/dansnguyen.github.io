@@ -1,0 +1,21 @@
+{% assign posts = site.posts %}
+
+<div class="posts-array">
+  <div class="packery-container">
+    <div class="box-sizer"></div>
+    {% for post in site.posts %}
+      {% include widgets/box.html post=post %}
+    {% endfor %}
+  </div>
+</div>
+
+
+<script>
+  $(document).ready(function(){
+    $(".packery-container").packery({
+        itemSelector: '.item',
+        columnWidth: 300
+    });
+  })
+</script>
+

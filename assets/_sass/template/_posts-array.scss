@@ -1,0 +1,46 @@
+$box_width: 250px;
+// @media screen and (min-width: 1200px) {
+//   $box_width: 350px;
+//   .box-sizer { width: $box_width; }
+// }
+
+.posts-array{
+  margin: 0 auto;
+  .box-sizer{
+    width: $box_width;
+  }
+
+  .item{
+    a.title-link{
+      &:link, &:visited{
+        color: black;
+      }
+    }
+  }
+
+  .item.box{
+    width: $box_width;
+    min-height: 200px;
+    // height: $box_height;
+    // background:url(http://www.placecage.com/g/400/300);
+  }
+  .item.box-1{
+    width: $box_width;
+    // height: $box_height * 2 + $box_gutter * 1;
+    // background:url(http://www.placecage.com/g/600/600);
+  }
+
+  .item.box-2{
+    width: $box_width * 2;
+    // height: $box_height * 2 + $box_gutter * 1;
+    // background:url(http://www.placecage.com/g/600/600);
+  }
+  .item.box-3{
+    width: $box_width * 3;
+    // height: $box_height * 3 + $box_gutter * 2;
+    // background:url(http://www.placecage.com/g/900/900);
+  }
+}
+
+
+
