@@ -1,34 +1,40 @@
-.post-meta{
-  margin-bottom: 1.5em;
-}
-
-@media (min-width: $screen-md-min) {
-  h1.post-title{
-    font-size: 4.0em;
-  }
-  .post-description{
-    font-size: 1.8em;
-  }
-}
-
-
-@media (max-width: $screen-md-min) {
-  h1.post-title{
-    font-size: 3.5em;
-  }
-  .post-description{
-    font-size: 1.5em;
-  }
-}
-
-@media (max-width: $screen-sm-min) {
+.post{
   h1.post-title{
     font-size: 3.0em;
   }
+
   .post-description{
-    font-size: 1.2em;
+    font-size: 1.1em;
+  }
+  @media (min-width: $screen-lg-min) {
+    h1.post-title{
+      font-size: 4.0em;
+    }
+    .post-description{
+      font-size: 1.8em;
+    }
+  }
+
+  @media (min-width: $screen-md-min) {
+    h1.post-title{
+      font-size: 3.5em;
+    }
+    .post-description{
+      font-size: 1.5em;
+    }
+  }
+
+  .post-meta{
+    margin-bottom: 1.5em;
   }
 }
+
+
+
+
+
+
+
 
 
 
@@ -60,15 +66,10 @@
     &.half{
       width: 50%;
     }
-
     &.full{
       width: 100%;
     }
-
   }
-
-
-
 
   .imgwrap.pull.center{
     float: none;

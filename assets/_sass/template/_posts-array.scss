@@ -1,13 +1,42 @@
-$box_width: 250px;
+$box_gutter: 10px;
+
+.posts-array{
+ h3.title{
+    font-size: 1.1em;
+    line-height: 1.3em;
+    margin-bottom: 2px;
+ }
+ @media (min-width: $screen-lg-min) {
+    $box_width: ($container-lg - $box_gutter * 5) / 3;
+    .box-sizer, .box{ width: $box_width; }
+
+    .box-2{ width: $box_width * 2 ;}
+  }
+
+  @media (max-width: $screen-lg-min) {
+    $box_width: ($container-md - $box_gutter * 5) / 3;
+    .box-sizer, .box{ width: $box_width; }
+    .box-2{ width: $box_width * 2 ;}
+  }
+
+  @media (max-width: $screen-md-min) {
+    $box_width: 100%;
+    .box-sizer, .box{ width: $box_width; }
+  }
+}
+
+
+
+
 // @media screen and (min-width: 1200px) {
 //   $box_width: 350px;
 //   .box-sizer { width: $box_width; }
 // }
 
 .posts-array{
-  margin: 0 auto;
-  .box-sizer{
-    width: $box_width;
+  .box{
+    min-height: 60px;
+    margin-bottom: 3.0em;
   }
 
   .item{
@@ -16,29 +45,6 @@ $box_width: 250px;
         color: $text-color;
       }
     }
-  }
-
-  .item.box{
-    width: $box_width;
-    min-height: 200px;
-    // height: $box_height;
-    // background:url(http://www.placecage.com/g/400/300);
-  }
-  .item.box-1{
-    width: $box_width;
-    // height: $box_height * 2 + $box_gutter * 1;
-    // background:url(http://www.placecage.com/g/600/600);
-  }
-
-  .item.box-2{
-    width: $box_width * 2;
-    // height: $box_height * 2 + $box_gutter * 1;
-    // background:url(http://www.placecage.com/g/600/600);
-  }
-  .item.box-3{
-    width: $box_width * 3;
-    // height: $box_height * 3 + $box_gutter * 2;
-    // background:url(http://www.placecage.com/g/900/900);
   }
 }
 
