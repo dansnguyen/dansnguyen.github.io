@@ -2,15 +2,34 @@
   margin-bottom: 1.5em;
 }
 
-@media (min-width: $screen-sm-min) {
+@media (min-width: $screen-md-min) {
   h1.post-title{
-    font-size: 5.0em;
+    font-size: 4.0em;
   }
-
   .post-description{
     font-size: 1.8em;
   }
 }
+
+
+@media (max-width: $screen-md-min) {
+  h1.post-title{
+    font-size: 3.5em;
+  }
+  .post-description{
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: $screen-sm-min) {
+  h1.post-title{
+    font-size: 3.0em;
+  }
+  .post-description{
+    font-size: 1.2em;
+  }
+}
+
 
 
 .post-content{

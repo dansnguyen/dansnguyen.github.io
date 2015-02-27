@@ -1,7 +1,13 @@
 ---
 layout: default
 ---
-<div class="post">
+
+{% if page.theme == 'dark' %}
+  {% assign theme = 'dark' %}
+{% else %}
+  {% assign theme = 'normal' %}
+{% endif %}
+<div class="post theme-{{theme}}">
 
     {% if page.lede_image %}
       <div class="lede_image">

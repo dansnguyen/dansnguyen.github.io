@@ -1,6 +1,9 @@
 <footer class="site-footer">
   <div class="container">
     <h2 class="footer-heading">{{ site.title }}</h2>
-      {% include widgets/social_icons.html %}
+
+      <ul class="social_icons list-unstyled">
+        {% include widgets/social_icons.html show_labels = true%}
+      </ul>
   </div>
 </footer>

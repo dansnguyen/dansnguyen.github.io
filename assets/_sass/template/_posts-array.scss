@@ -13,7 +13,7 @@ $box_width: 250px;
   .item{
     a.title-link{
       &:link, &:visited{
-        color: black;
+        color: $text-color;
       }
     }
   }

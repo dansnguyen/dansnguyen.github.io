@@ -16,6 +16,24 @@ $button_height: 80px;
 }
 
 
+.magic-outline{
+  outline: #555 solid 1px;
+
+  &:hover {
+    outline: #aaa solid 1px;
+    transition: all 0.3s ease-in;
+  }
+}
+
+.magic-border{
+  border: thin solid #555;
+
+  &:hover {
+    border: thin solid #aaa;
+    transition: all 0.3s ease-in;
+  }
+}
+
 
 a.fa{
   &:link, &:visited,&:hover{
