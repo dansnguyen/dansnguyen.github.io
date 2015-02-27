@@ -6,10 +6,12 @@ $posts_array_base_line_height: $posts_array_base_font_size * 1.1;
 
 
 .posts-array{
+    padding-top: 4.0em;
+    padding-bottom: 2.0em;
 
     .item{
       &:hover{
-            outline: $brand-primary solid 1px;
+        outline: $brand-primary solid 1px;
       }
     }
 

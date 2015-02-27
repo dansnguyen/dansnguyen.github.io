@@ -4,14 +4,22 @@ hide_header: true
 ---
 
 <div class="homepage">
+  <section>
     <div class="banner-wrapper">
       {% include homepage/banner.html %}
     </div>
+  </section>
 
 
+  <section class="callout">
+    {% include homepage/callout.html %}
+  </section>
+
+  <section class="sec">
     <div class="container">
       {% include widgets/posts-array.html %}
     </div>
+  </section>
 </div>
 
 

@@ -45,7 +45,11 @@
   <script src="/assets/js/vendor/isotope.js"></script>
   <script src="/assets/js/vendor/packery.js"></script>
   <script src="/assets/js/vendor/imagesloaded.js"></script>
-
   <script src="/assets/js/main.js"></script>
+
+
+  {% if site.google_analytics_id %}
+    {% include widgets/google-analytics.html gid=site.google_analytics_id %}
+  {% endif %}
 
 </head>

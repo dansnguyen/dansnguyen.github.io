@@ -4,7 +4,8 @@
 url: "http://dansnguyen.github.io" # the base hostname & protocol for your site
 # let's you track visitor counts
 google_analytics_id: UA-somecode
-
+# point to where this site is hosted on github
+github_source_repo: dansnguyen/dansnguyen.github.io
 
 ###########################################
 # Meta stuff
@@ -26,7 +27,9 @@ flickr_id: zokuga
 youtube_id: dantanguyen
 linkedin_id: dan-nguyen/2/570/276
 
-resume_url: http://a.danwin.com
+about_url: /about/
+contact_url: "/about#contact"
+resume_url: http://www.grad.illinois.edu/careerservices/nonacademic/resumes/samples.pdf
 email: dun@stanford.edu
 
 #######################################

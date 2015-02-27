@@ -42,6 +42,10 @@
   p,ul,ol,h1,h2,h3,h4,h5,h6,blockquote, pre, code{
   }
 
+  .video, .video-embed{
+    margin: 1.0em 0em;
+  }
+
   .imgwrap.pull{
     border: thin solid $gray-light;
     margin: 2.0em auto;

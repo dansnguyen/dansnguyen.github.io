@@ -22,8 +22,15 @@
   {% assign color_theme = 'normal' %}
 {% endif %}
 
+{% if _post.redirect_to_url %}
+  {% assign post_url = _post.redirect_to_url %}
+  {% assign url_target = "_blank" %}
+{% else %}
+  {% assign post_url = _post.url | prepend: site.baseurl %}
+{% endif %}
+
 <div class="box box-{{boxsize}} {{color_theme}}" style="">
-  <a href="{{ _post.url | prepend: site.baseurl }}" class="title-link">
+  <a href="{{ post_url }}" class="title-link" {% if url_target %} target="{{url_target}}" {% endif %}>
     <div class="thumb-wrapper">
       {% if _post.thumbnail_url %}
         <div class="imgwrap thumb">

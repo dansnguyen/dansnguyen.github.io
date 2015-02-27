@@ -19,7 +19,6 @@
             <img src="{{item.image_url}}" alt="{{item.image_url}}" data-toggle="modal" data-target="#{{image_slug}}">
           </a>
         </div>
-
 <!--
           <div class="caption">
             <strong>{{ item.title }}</strong>
@@ -29,7 +28,7 @@
       </li>
     {% endfor %}
   </ul>
-
+<!--
 <script>
 
 $(document).ready(function(){
@@ -44,7 +43,7 @@ $(document).ready(function(){
 
 })
 
-</script>
+</script> -->
 
 
 {% else %}
@@ -54,9 +53,19 @@ $(document).ready(function(){
         <div class="imgwrap">
           <img src="{{item.image_url}}" alt="{{item.image_url}}">
         </div>
-        <div class="caption">
-          <strong>{{ item.title }}</strong>
-          <p>{{ item.description }}</p>
+          <div class="caption">
+            <div class="content">
+
+              {% if item.title %}
+                <span class="title">{{ item.title }}</span>
+              {% endif %}
+
+              {% if item.title %}
+                <span class="description">{{ item.description }}</span>
+              {% endif %}
+
+            </div>
+          </div>
         </div>
       </li>
     {% endfor %}

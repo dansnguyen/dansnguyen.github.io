@@ -14,3 +14,11 @@ You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://gi
 ### Lists
 
 {% include widgets/datalist.html data=site.data.lists.techskills %}
+
+
+
+<div id="contact-me"></div>
+
+## Contact me
+
+You can email me at {% include widgets/email-link.html %}
