@@ -5,28 +5,36 @@
         {% for post in site.posts %}
           {% assign box = '1x1' %}
           {% assign title = post.title %}
-
+          {% assign description = post.description %}
 
           {% if post.homepage %}
             {% if post.homepage.box %}
               {% assign box = post.homepage.box %}
             {% endif %}
-          {% endif %}
 
-
-          <div class="item box box-{{box}}" style="">
-            {% if post.thumbnail_url %}
-              <div class="imgwrap thumb">
-                <img src="{{post.thumbnail_url}}" alt="thumbnail">
-              </div>
+            {% if post.homepage.title %}
+              {% assign title = post.homepage.title %}
             {% endif %}
 
-            <h3 class="title">
-              <a href="{{ post.url | prepend: site.baseurl }}">
-                {{ post.title }}
-              </a>
-            </h3>
-            <p>{{post.excerpt}}</p>
+            {% if post.homepage.description %}
+              {% assign description = post.homepage.description %}
+            {% endif %}
+
+          {% endif %}
+
+          <div class="item box box-{{box}}" style="">
+            <a href="{{ post.url | prepend: site.baseurl }}" class="title-link">
+              {% if post.thumbnail_url %}
+                <div class="imgwrap thumb">
+                  <img src="{{post.thumbnail_url}}" alt="thumbnail">
+                </div>
+              {% endif %}
+
+              <h3 class="title">
+                  {{ post.title }}
+              </h3>
+            </a>
+            <p class="description">{{post.description }}</p>
           </div>
 
         {% endfor %}

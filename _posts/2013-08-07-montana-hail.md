@@ -1,11 +1,13 @@
 ---
 layout: post
 title:  "Hail in Montana"
-categories: video
+content_type: Video
 
-banner_image_url: /images/banners/montana-hailstorm.jpg
-banner_image_caption: "Ominous clouds on Madison River, Montana. This photo was taken shortly before we made it to land and the hail started coming down."
-thumbnail_url: "/images/thumbs/montana-hailstorm.jpg"
+lede_image:
+  banner: true
+  caption: "Ominous clouds on Madison River, Montana. This photo was taken shortly before we made it to land and the hail started coming down."
+  url: /images/posts/montana-hailstorm.jpg
+
 
 published_info:
   date: 2013-08-27
@@ -13,10 +15,13 @@ published_info:
   url: http://www.theweather.channel
   logo_url: http://www.theweather.com/image.jpg
 
-homepage:
-  title: Some other thing
-  position: 1
-  box: 3x3
+thumbnail_url: "/images/thumbs/montana-hailstorm.jpg"
+
+homepage_title: Some other title for this thing
+homepage_description: |
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed suscipit temporibus, quis maxime laboriosam necessitatibus tenetur qui expedita vitae, quia earum fuga odit pariatur dolorem est eos accusamus saepe dolor.
+homepage_order: 1
+homepage_size: 2
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed suscipit temporibus, quis maxime laboriosam necessitatibus tenetur qui expedita vitae, quia earum fuga odit pariatur dolorem est eos accusamus saepe dolor.

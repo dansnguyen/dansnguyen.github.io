@@ -39,3 +39,22 @@ git push -u origin master
 http://jekyllrb.com/docs/quickstart/
 
 
+
+## How to make a post
+
+### Create a new file in the _posts/ directory
+
+In the `_posts/` directory, make a new post, and __put a date at the beginning of the filename__ (the format is important), followed by just some slug of lowercase letters and hyphens. You can use either the file extension of `md` for markdown (recommended) or `.html` if you plan on writing custom HTML for some reason:
+
+        _posts/_
+            2015-01-10-this-is-my-post.md
+            2013-12-02-this-is-some-other-post.md
+
+The filename doesn't really affect the actual URL of the post (that's based on the title). Just name the file something that you can easily recognize as you go through your own files. Also, the _dateslug_ does not really matter, though you can choose to have it refer to the original publish date of something if you want.
+
+To reiterate: the filename is just to make it easy _for you_ to keep track of what you have.
+
+
+### Fill out the attributes in the top matter
+
+

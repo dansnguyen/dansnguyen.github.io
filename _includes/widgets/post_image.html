@@ -1,13 +1,15 @@
-{% if include.width %}
-  {% assign width = include.width %}
+{% if include.width == 'third' %}
+  {% assign width_class = 'third' %}
+{% elsif include.width == 'half' %}
+  {% assign width_class = 'half' %}
 {% else %}
-  {% assign width = "50%" %}
+  {% assign width_class = "full" %}
 {% endif %}
 
-{% if include.side %}
-  {% assign side = include.side %}
+{% if include.pull %}
+  {% assign pull = include.pull %}
 {% else %}
-  {% assign side = "right" %}
+  {% assign pull = "center" %}
 {% endif %}
 
 
@@ -18,7 +20,7 @@
 {% endif %}
 
 
-<div class="imgwrap pull {{ side }}">
+<div class="imgwrap pull {{ pull }} {{width_class}}">
   <div>
     <img alt="{{ alt }}" src="{{ include.src }}">
 

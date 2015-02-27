@@ -8,10 +8,9 @@ published_info:
   site: The Iowa State Daily
   url: http://www.iowastatedaily.com/opinion/article_c6b50d83-a68e-5fc0-82e0-856756f45aec.html
   logo_url: http://www.theweather.com/image.jpg
-homepage:
-  title: Some other thing iowastate
-  position: 1
-  box: 1x2
+homepage_title: Some other thing iowastate
+homepage_order: 12
+homepage_size: 1
 ---
 
 
@@ -23,7 +22,7 @@ They, and all the Iowa regent universities, use the M26, made by Taser Internati
 
 When the hooks connect, your body becomes a playground for the Taser's 50,000 volts. Unlike previous Tasers, which caused a lot of pain, the M26 is special for causing a lot of pain AND completely overpowering the nervous center and muscular control (which is why I didn't eat or drink for 12 hours before trying this). It's so effective that the UHPD doesn't bother carrying other non-lethal weapons.
 
-{% include widgets/side_image.html src="http://placehold.it/550x350" caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error tenetur mollitia consequatur, libero, earum possimus nihil nesciunt. Quia a consectetur praesentium dolore, reiciendis cupiditate in saepe quaerat corporis, assumenda. Nobis?" %}
+{% include widgets/post_image.html src="http://placehold.it/550x350" caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error tenetur mollitia consequatur, libero, earum possimus nihil nesciunt. Quia a consectetur praesentium dolore, reiciendis cupiditate in saepe quaerat corporis, assumenda. Nobis?" %}
 
 
 
