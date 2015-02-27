@@ -26,7 +26,18 @@
 
     {% if include.caption %}
       <div class="caption">
-        {{ include.caption }}
+        <div class="content">{{ include.caption | markdownify }}</div>
+
+        {% if include.source_credit %}
+        <div class="credit">
+          {{ include.source_credit  }}
+            {% if include.source_url %}
+              <a class="source_link" href="{{include.source_url}}">(Original source)</a>
+            {% endif %}
+        </div>
+        {% endif %}
+
+
       </div>
     {% endif %}
   </div>

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Why Iowa City is more electrifying than Ames"
+description: A first-hand account of being Tasered
 categories: column
 
 published_info:
@@ -8,9 +9,12 @@ published_info:
   site: The Iowa State Daily
   url: http://www.iowastatedaily.com/opinion/article_c6b50d83-a68e-5fc0-82e0-856756f45aec.html
   logo_url: http://www.theweather.com/image.jpg
-homepage_title: Some other thing iowastate
-homepage_order: 12
+homepage_title: Getting Tasered at Iowa State
+homepage_description: |
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque adipisci blanditiis, libero reiciendis voluptatem, laboriosam dolorem corporis veniam reprehenderit.
+homepage_position: 70
 homepage_size: 1
+homepage_theme: invert
 ---
 
 
@@ -22,8 +26,8 @@ They, and all the Iowa regent universities, use the M26, made by Taser Internati
 
 When the hooks connect, your body becomes a playground for the Taser's 50,000 volts. Unlike previous Tasers, which caused a lot of pain, the M26 is special for causing a lot of pain AND completely overpowering the nervous center and muscular control (which is why I didn't eat or drink for 12 hours before trying this). It's so effective that the UHPD doesn't bother carrying other non-lethal weapons.
 
-{% include widgets/post_image.html src="http://placehold.it/550x350" caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error tenetur mollitia consequatur, libero, earum possimus nihil nesciunt. Quia a consectetur praesentium dolore, reiciendis cupiditate in saepe quaerat corporis, assumenda. Nobis?" %}
 
+{% include widgets/post_image.html src="http://upload.wikimedia.org/wikipedia/commons/f/fb/Taser-x26.jpg" caption="A photo of the X26 from Wikipedia. Though I was tased by the M26." source_url="http://en.wikipedia.org/wiki/Taser#mediaviewer/File:Taser-x26.jpg" source_credit="Photo by jasonesbain - Taser. Licensed under CC BY 2.0 via Wikimedia Commons" %}
 
 
 After chewing out some girls brought in for underage drinking and sending them home, Shimon locked the entrance to the station, shut the blinds and pulled out his M26. I didn't feel like having the metal hooks poking through my body, so he discharged the weapon into (I'm not kidding) a nearby doughnut box. He then attached one hook to my sweater and the other to the front pocket of my khakis. He asked me how long I wanted to "ride the bull." Five seconds is what they (and the ISUPD) would give to an offender and is what Shimon had to suffer through several times in order to become a master instructor. I decided to take it for a couple of seconds based on the journalistic hunch that I needed to survive in order to write this column.

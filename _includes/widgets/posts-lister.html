@@ -1,17 +1,12 @@
- <ul class="post-list list-unstyled">
+<div class="posts-list">
+  <ul class="list-unstyled">
       {% for post in site.posts %}
-        <li>
-          <h4>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h4>
-          <p>
-            {{post.excerpt}}
-          </p>
+        <li class="item {% cycle 'odd', 'even' %}">
+          {% include widgets/box.html post=post %}
         </li>
       {% endfor %}
-    </ul>
-
-
+  </ul>
+</div>
 
 <!--           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
  -->

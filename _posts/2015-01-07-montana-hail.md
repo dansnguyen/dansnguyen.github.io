@@ -20,8 +20,9 @@ thumbnail_url: "/images/thumbs/montana-hailstorm.jpg"
 homepage_title: Some other title for this thing
 homepage_description: |
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed suscipit temporibus, quis maxime laboriosam necessitatibus tenetur qui expedita vitae, quia earum fuga odit pariatur dolorem est eos accusamus saepe dolor.
-homepage_order: 1
+homepage_position: 50
 homepage_size: 2
+homepage_theme: invert
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed suscipit temporibus, quis maxime laboriosam necessitatibus tenetur qui expedita vitae, quia earum fuga odit pariatur dolorem est eos accusamus saepe dolor.

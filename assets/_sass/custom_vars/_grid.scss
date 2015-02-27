@@ -68,3 +68,10 @@ $container-md:                 $container-desktop !default;
 $container-large-desktop:      (1140px + $grid-gutter-width) !default;
 //** For `$screen-lg-min` and up.
 $container-lg:                 $container-large-desktop !default;
+
+
+.hidden-phone{
+  @media (max-width: $screen-md-min){
+    display: none;
+  }
+}

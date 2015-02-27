@@ -12,6 +12,9 @@ thumbnail_url: /images/posts/small-datajournalism.jpg
 published_info:
   site: New York University
   url: http://www.smalldatajournalism.com
+
+homepage_position: 100
+
 ---
 
 

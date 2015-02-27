@@ -1,9 +1,10 @@
 .post{
-  padding-top: 3.0em;
   padding-bottom: 3.0em;
+
 
   h1.post-title{
     font-size: 3.0em;
+    margin-top: 1.0em;
   }
 
   .post-description{
@@ -41,9 +42,8 @@
   p,ul,ol,h1,h2,h3,h4,h5,h6,blockquote, pre, code{
   }
 
-
-
   .imgwrap.pull{
+    border: thin solid $gray-light;
     margin: 2.0em auto;
     width: 100%;
     img{
@@ -51,7 +51,18 @@
     }
     .caption{
       font-size: $font-size-base * 0.9;
-      margin-top: 1.0em;
+      font-family: $font-family-sans-serif;
+      padding: 1.0em;
+      background: $gray-lighter;
+
+
+      p{ margin: 1px 0 2px 0; font-family: $font-family-sans-serif; }
+
+      .credit{
+        font-style: italic;
+        .source_link{ font-style: normal; }
+      }
+
     }
 
     &.third{

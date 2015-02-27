@@ -2,7 +2,8 @@
 layout: post
 title:  Photos of Hurricane Sandy's Aftermath
 content_type: Photos
-theme: dark
+homepage_theme: invert
+thumbnail_url: /images/thumbs/sandy-thumb.jpg
 ---
 
 
